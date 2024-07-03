@@ -1,0 +1,27 @@
+h1{
+    color: antiquewhite;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 59px;
+    text-shadow: 2px 12px 4px #404031;
+}
+
+p{
+    font-weight: bold;
+}
+
+.home{
+    background-color: beige;
+    display: flex;
+    padding: 13px;
+    margin: 65px;
+
+}
+img{
+    margin-right: 15px;
+    border-radius: 17px;
+    opacity: 0.8;
+}
+.home:hover{
+    background-color: #b3f8e1;
+}

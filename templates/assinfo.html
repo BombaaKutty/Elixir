@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+
+    {% load static %}
+    <link rel="icon" href="{% static 'assets/images/info.png' %}">
+
+    <link rel="stylesheet" href="{% static 'css/assinfo.css' %}">
+
+</head>
+<body>
+
+<table >
+    <tr>
+        <th>ID</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Alex</td>
+        <td>Mahon</td>
+        <td>
+            <img src="{% static 'assets/images/alex.jpeg' %}" alt="">
+        </td>
+        <td><button id="edit">Edit</button></td>
+        <td><button class="del">Delete</button></td>
+
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jack</td>
+        <td>Trades</td>
+        <td>
+             <img src="{% static 'assets/images/van.jpeg' %}" alt="">
+        </td>
+        <td><button id="edit">Edit</button></td>
+        <td><button class="del">Delete</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Curtis</td>
+        <td>Jones</td>
+        <td>
+             <img src="{% static 'assets/images/curtis.jpeg' %}" alt="">
+        </td>
+        <td><button id="edit">Edit</button></td>
+        <td><button class="del">Delete</button></td>
+
+    </tr>
+</table>
+
+
+</body>
+</html>

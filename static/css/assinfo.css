@@ -1,0 +1,26 @@
+table,td,th {
+    border: 2px solid #737070;
+    border-collapse: collapse;
+}
+table{
+    width: 50%;
+    height: 250px;
+    background-color: #f9fbfb;
+}
+td{
+    padding-left: 45px;
+}
+img{
+    height: 120px;
+    width: 160px;
+}
+#edit{
+    background-color: yellow;
+}
+.del{
+    background-color: red;
+}
+button{
+    width: 85px;
+    height: 24px;
+}
